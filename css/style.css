@@ -1,0 +1,156 @@
+/* nav */
+.justify-content-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: rgb(115, 110, 102);
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.justify-content-end img.mylogo{
+    width: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start !important;
+}
+
+.nav-item{
+    padding: 0% 1%;
+}
+
+.nav-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.titleText{
+    text-align: start;
+    line-height: 120% !important;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container{
+    padding: 1%;
+    padding-left: 2%;
+}
+.introText{
+    display: flex;
+    flex-direction: column;
+}
+
+p.description{
+    line-height: 50%;
+}
+
+.col img{
+    padding-top: 2%;
+    width: 600px;
+}
+
+.row-cols-5{
+    justify-content: space-between;
+}
+
+.col{
+    padding-top: 1%;
+}
+
+h5{
+    background-color: rgb(60, 69, 82);
+    text-align: center;
+    color: white !important;
+    padding: 2%;
+}
+
+li{
+    line-height: 150%;
+}
+
+h1{
+    text-align: center;
+    line-height: 150% !important;
+}
+
+h6{
+    font-weight: bolder !important;
+    text-decoration: underline;
+}
+
+img.homepageImg{
+    width: 100% !important;
+}
+
+p.quotation{
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.usability{
+    column-gap: 1%;
+}
+
+.issue1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.col .iterations{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
+    justify-content: space-between;
+}
+
+.col .iterationsdiv{
+    display: flex;
+    flex-direction: column;
+}
+.col .imageIssue1{
+    padding-top:0% !important;
+    width: 80%;
+}
+
+.issue1 p{
+    padding-top: 2%;
+    padding-left: 20%;
+}
+
+.issue2{
+    row-gap: 50px;
+}
+
+.issue2 p{
+    padding-top: 1%;
+    padding-left: 20%;
+    padding-bottom: 4%;
+}
+
+.issuediv2{
+    padding-left: 3%;
+    border-left: 1px solid black;
+}
+
+img.hifiImage{
+    width: 100%;
+}
+
+img.mobileImg{
+    width: 100%;
+}
+
+a.link-opacity-100{
+    color:black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+}

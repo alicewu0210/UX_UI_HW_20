@@ -9,14 +9,17 @@
 a{
     width: 5%;
     padding-left: 2%;
+    padding-top: 1%;
 }
 img.mylogo{
     width: 100%;
+    align-items: center;
 }
 
 .nav-container{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .nav-item{

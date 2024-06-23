@@ -1,25 +1,22 @@
 /* nav */
-.justify-content-end{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
+.justify-content-between{
     background-color: rgb(115, 110, 102);
-    padding-top: 5%;
+    padding-top: 1%;
     padding-left: 2%;
     padding-right: 2%;
-    padding-bottom: 5%;
-    align-items: center;
+    padding-bottom: 1%;
+}
+a{
+    width: 5%;
+    padding-left: 2%;
+}
+img.mylogo{
+    width: 100%;
 }
 
-.justify-content-end img.mylogo{
-    width: 3%;
+.nav-container{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start !important;
-}
-
-img.mylogo{
-    width: 3%;
 }
 
 .nav-item{

@@ -1,10 +1,10 @@
 /* nav */
 .justify-content-between{
     background-color: rgb(115, 110, 102);
-    padding-top: 2%;
+    padding-top: 1.5%;
     padding-left: 2%;
     padding-right: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 1.5%;
 }
 a{
     width: 7%;
